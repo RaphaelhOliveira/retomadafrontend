@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Paulo FC - O Melhor Time do Brasil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #d2232a, #9f181c);
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(to right, #d2232a, #9f181c);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            background: linear-gradient(to right, #333, #1a1a1a);
+            color: white;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        li {
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 40px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        footer {
+            background: linear-gradient(to right, #333, #1a1a1a);
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        @media only screen and (max-width: 768px) {
+            nav {
+                padding: 10px 0;
+            }
+
+            ul {
+                flex-direction: column;
+                align-items: center;
+                transform: translateY(20px);
+            }
+
+            li {
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>São Paulo FC</h1>
+        <p>O Melhor Time do Brasil</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="titulos.html">Títulos</a></li>
+            <li><a href="estadio.html">Estádio</a></li>
+            <li><a href="torcida.html">Torcida</a></li>
+            <li><a href="idolos.html">Ídolos</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Bem-vindo ao site oficial do São Paulo FC!</h2>
+        <p>Descubra por que o São Paulo FC é considerado o melhor time do Brasil. Navegue pelas diferentes seções para conhecer nossa história, títulos, estádio, torcida e ídolos.</p>
+    </section>
+
+    <footer>
+        <p>Orgulhosamente HTML por um torcedor do São Paulo FC</p>
+    </footer>
+
+</body>
+</html>
